@@ -446,6 +446,7 @@ void menu_admin(travel *&head, pemesanan *&HEAD)
         }
         else if (pilihan == "7")
         {
+            quickSort(&HEAD, 0);
             lihat_orderan(HEAD);
         }
 
